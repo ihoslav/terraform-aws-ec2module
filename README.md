@@ -1,5 +1,5 @@
 # terraform-aws-ec2module
-
+```
 module "your-module-name" {
     source = "ihoslav/ec2module/aws"
     version = "specify version"
@@ -16,3 +16,4 @@ ebs-size = "chose your volume size"
 ec2-tag-name = "give your name to ec2"
 ebs-tag-name = "give your volume name "
 }
+```
