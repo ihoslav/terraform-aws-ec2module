@@ -16,4 +16,18 @@ ebs-size = "chose your volume size"
 ec2-tag-name = "give your name to ec2"
 ebs-tag-name = "give your volume name "
 }
+
+
+output "key-info" {
+  value = aws_key_pair.key
+}
+
+output "sec-info" {
+  value = aws_security_group.secur
+}
+
+output "ebs-info" {
+  value = aws_ebs_volume.ebs
+}
+
 ```
